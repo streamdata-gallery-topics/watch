@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Watch
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
@@ -238,6 +238,60 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-parameters-openapi.md
+- name: Bitbucket - Parameters Snippets Username Encoded  Watchers
+  x-api-slug: snippetsusernameencoded-idwatchers-parameters
+  description: Parameters snippets username encoded  watchers
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-parameters-openapi.md
+- name: Bitbucket - Get Snippets Username Encoded  Watchers
+  x-api-slug: snippetsusernameencoded-idwatchers-get
+  description: Returns a paginated list of all users watching a specific snippet.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-get-openapi.md
+- name: Bitbucket - Parameters Repositories Username Repo Slug Watchers
+  x-api-slug: repositoriesusernamerepo-slugwatchers-parameters
+  description: Parameters repositories username repo slug watchers
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/repositoriesusernamerepo-slugwatchers-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/repositoriesusernamerepo-slugwatchers-parameters-openapi.md
+- name: Bitbucket - Get Repositories Username Repo Slug Watchers
+  x-api-slug: repositoriesusernamerepo-slugwatchers-get
+  description: |-
+    Returns a paginated list of all the watchers on the specified
+    repository.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/repositoriesusernamerepo-slugwatchers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/bitbucket/repositoriesusernamerepo-slugwatchers-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bigoven.api.gallery.streamdata.io

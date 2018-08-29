@@ -8,11 +8,27 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Watch
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
+- name: GitHub - Get Repos Owner Repo Watchers
+  x-api-slug: reposownerrepowatchers-get
+  description: List Stargazers. New implementation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/github/reposownerrepowatchers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/github/reposownerrepowatchers-get-openapi.md
 - name: GitHub - Get Repos Owner Repo Watchers
   x-api-slug: reposownerrepowatchers-get
   description: List Stargazers. New implementation.

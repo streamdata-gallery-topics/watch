@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Watch
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -298,6 +298,212 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchspacespacekey-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchspacespacekey-post-openapi.md
+- name: The Confluence Cloud REST API - Add space watcher
+  x-api-slug: userwatchspacespacekey-post
+  description: "Adds a user as a watcher to a space. Choose the user by doing one
+    of the \nfollowing:\n\n- Specify a user via a query parameter: Use the `username`,
+    `key`, or `accountId` \nto identify the user. The user making the request must
+    be a Confluence administrator.\n- Do not specify a user: The currently logged-in
+    user will be used.\n\nNote, you must add the `X-Atlassian-Token: no-check` header
+    when making a \nrequest, as this operation has XSRF protection.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchspacespacekey-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchspacespacekey-post-openapi.md
+- name: The Confluence Cloud REST API - Add space watcher
+  x-api-slug: userwatchspacespacekey-post
+  description: "Adds a user as a watcher to a space. Choose the user by doing one
+    of the \nfollowing:\n\n- Specify a user via a query parameter: Use the `username`,
+    `key`, or `accountId` \nto identify the user. The user making the request must
+    be a Confluence administrator.\n- Do not specify a user: The currently logged-in
+    user will be used.\n\nNote, you must add the `X-Atlassian-Token: no-check` header
+    when making a \nrequest, as this operation has XSRF protection.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchspacespacekey-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchspacespacekey-post-openapi.md
+- name: The Confluence Cloud REST API - Remove label watcher
+  x-api-slug: userwatchlabellabelname-delete
+  description: "Removes a user as a watcher from a label. Choose the user by doing
+    one of \nthe following:\n\n- Specify a user via a query parameter: Use the `username`,
+    `key`, or `accountId` \nto identify the user. The user making the request must
+    be a Confluence administrator.\n- Do not specify a user: The currently logged-in
+    user will be used.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchlabellabelname-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchlabellabelname-delete-openapi.md
+- name: The Confluence Cloud REST API - Remove label watcher
+  x-api-slug: userwatchlabellabelname-delete
+  description: "Removes a user as a watcher from a label. Choose the user by doing
+    one of \nthe following:\n\n- Specify a user via a query parameter: Use the `username`,
+    `key`, or `accountId` \nto identify the user. The user making the request must
+    be a Confluence administrator.\n- Do not specify a user: The currently logged-in
+    user will be used.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchlabellabelname-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchlabellabelname-delete-openapi.md
+- name: The Confluence Cloud REST API - Add label watcher
+  x-api-slug: userwatchlabellabelname-post
+  description: "Adds a user as a watcher to a label. Choose the user by doing one
+    of the \nfollowing:\n\n- Specify a user via a query parameter: Use the `username`,
+    `key`, or `accountId` \nto identify the user. The user making the request must
+    be a Confluence administrator.\n- Do not specify a user: The currently logged-in
+    user will be used.\n\nNote, you must add the `X-Atlassian-Token: no-check` header
+    when making a \nrequest, as this operation has XSRF protection.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchlabellabelname-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchlabellabelname-post-openapi.md
+- name: The Confluence Cloud REST API - Add label watcher
+  x-api-slug: userwatchlabellabelname-post
+  description: "Adds a user as a watcher to a label. Choose the user by doing one
+    of the \nfollowing:\n\n- Specify a user via a query parameter: Use the `username`,
+    `key`, or `accountId` \nto identify the user. The user making the request must
+    be a Confluence administrator.\n- Do not specify a user: The currently logged-in
+    user will be used.\n\nNote, you must add the `X-Atlassian-Token: no-check` header
+    when making a \nrequest, as this operation has XSRF protection.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchlabellabelname-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchlabellabelname-post-openapi.md
+- name: The Confluence Cloud REST API - Remove content watcher
+  x-api-slug: userwatchcontentcontentid-delete
+  description: "Removes a user as a watcher from a piece of content. Choose the user
+    by \ndoing one of the following:\n\n- Specify a user via a query parameter: Use
+    the `username`, `key`, or `accountId` \nto identify the user. The user making
+    the request must be a Confluence administrator.\n- Do not specify a user: The
+    currently logged-in user will be used.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchcontentcontentid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchcontentcontentid-delete-openapi.md
+- name: The Confluence Cloud REST API - Remove content watcher
+  x-api-slug: userwatchcontentcontentid-delete
+  description: "Removes a user as a watcher from a piece of content. Choose the user
+    by \ndoing one of the following:\n\n- Specify a user via a query parameter: Use
+    the `username`, `key`, or `accountId` \nto identify the user. The user making
+    the request must be a Confluence administrator.\n- Do not specify a user: The
+    currently logged-in user will be used.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchcontentcontentid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchcontentcontentid-delete-openapi.md
+- name: The Confluence Cloud REST API - Add content watcher
+  x-api-slug: userwatchcontentcontentid-post
+  description: "Adds a user as a watcher to a piece of content. Choose the user by
+    doing \none of the following:\n\n- Specify a user via a query parameter: Use the
+    `username`, `key`, or `accountId` \nto identify the user. The user making the
+    request must be a Confluence administrator.\n- Do not specify a user: The currently
+    logged-in user will be used.\n\nNote, you must add the `X-Atlassian-Token: no-check`
+    header when making a \nrequest, as this operation has XSRF protection.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchcontentcontentid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchcontentcontentid-post-openapi.md
+- name: The Confluence Cloud REST API - Add content watcher
+  x-api-slug: userwatchcontentcontentid-post
+  description: "Adds a user as a watcher to a piece of content. Choose the user by
+    doing \none of the following:\n\n- Specify a user via a query parameter: Use the
+    `username`, `key`, or `accountId` \nto identify the user. The user making the
+    request must be a Confluence administrator.\n- Do not specify a user: The currently
+    logged-in user will be used.\n\nNote, you must add the `X-Atlassian-Token: no-check`
+    header when making a \nrequest, as this operation has XSRF protection.\n\n**[Permissions](https://confluence.atlassian.com/x/_AozKw)
+    required**: \n'Confluence Administrator' global permission if specifying a user,
+    otherwise \npermission to access the Confluence site ('Can use' global permission)."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchcontentcontentid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/userwatchcontentcontentid-post-openapi.md
 - name: Jira Cloud REST API - Add watcher
   x-api-slug: api2issueissueidorkeywatchers-post
   description: Adds the user to the issue's watcher list.
@@ -499,6 +705,90 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2notificationscheme-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2notificationscheme-get-openapi.md
+- name: Jira Cloud REST API - Remove watcher
+  x-api-slug: api2issueissueidorkeywatchers-delete
+  description: Removes the user from the issue's watcher list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-delete-openapi.md
+- name: Jira Cloud REST API - Remove watcher
+  x-api-slug: api2issueissueidorkeywatchers-delete
+  description: Removes the user from the issue's watcher list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-delete-openapi.md
+- name: Jira Cloud REST API - Add watcher
+  x-api-slug: api2issueissueidorkeywatchers-post
+  description: Adds the user to the issue's watcher list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-post-openapi.md
+- name: Jira Cloud REST API - Add watcher
+  x-api-slug: api2issueissueidorkeywatchers-post
+  description: Adds the user to the issue's watcher list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-post-openapi.md
+- name: Jira Cloud REST API - Get issue watchers
+  x-api-slug: api2issueissueidorkeywatchers-get
+  description: Returns the list of watchers for the issue with the given key.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-get-openapi.md
+- name: Jira Cloud REST API - Get issue watchers
+  x-api-slug: api2issueissueidorkeywatchers-get
+  description: Returns the list of watchers for the issue with the given key.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/watch/master/_listings/atlassian/api2issueissueidorkeywatchers-get-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json
